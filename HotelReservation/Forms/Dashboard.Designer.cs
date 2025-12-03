@@ -335,6 +335,7 @@
             this.dashboardControl1.Name = "dashboardControl1";
             this.dashboardControl1.Size = new System.Drawing.Size(983, 497);
             this.dashboardControl1.TabIndex = 6;
+            this.dashboardControl1.Load += new System.EventHandler(this.dashboardControl1_Load);
             // 
             // clientControl1
             // 

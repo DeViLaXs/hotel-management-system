@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -63,6 +64,7 @@
     <Compile Include="DashboardControl\DashboardControl.Designer.cs">
       <DependentUpon>DashboardControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataAccess\RoomDAL.cs" />
     <Compile Include="Forms\AddReservation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,12 +95,13 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Room.cs">
+    <Compile Include="Forms\frmRoom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Room.Designer.cs">
-      <DependentUpon>Room.cs</DependentUpon>
+    <Compile Include="Forms\frmRoom.Designer.cs">
+      <DependentUpon>frmRoom.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Room.cs" />
     <Compile Include="PaymentControl\PaymentControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -119,6 +122,7 @@
     <Compile Include="RoomControl\RoomControl.Designer.cs">
       <DependentUpon>RoomControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Services\RoomServices.cs" />
     <EmbeddedResource Include="ClientControl\ClientControl.resx">
       <DependentUpon>ClientControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,8 +144,8 @@
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Room.resx">
-      <DependentUpon>Room.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmRoom.resx">
+      <DependentUpon>frmRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PaymentControl\PaymentControl.resx">
       <DependentUpon>PaymentControl.cs</DependentUpon>
@@ -234,5 +238,6 @@
   <ItemGroup>
     <None Include="Resources\five-stars %281%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

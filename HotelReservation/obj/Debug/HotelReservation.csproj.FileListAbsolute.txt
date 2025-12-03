@@ -9,7 +9,6 @@ C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\De
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.Forms.EditReservation.resources
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.Forms.EditRoom.resources
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.Form1.resources
-C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.Forms.Room.resources
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.PaymentControl.PaymentControl.resources
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.Properties.Resources.resources
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.roomControl.ReservationControl.resources
@@ -19,3 +18,4 @@ C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\De
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.exe
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.pdb
 C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.exe.config
+C:\Users\abdurahman\Source\Repos\hotel-management-system\HotelReservation\obj\Debug\HotelReservation.Forms.frmRoom.resources

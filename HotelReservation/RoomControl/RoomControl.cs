@@ -155,7 +155,7 @@ namespace HotelReservation
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form roomf = new Room();
+            Form roomf = new frmRoom();
             roomf.ShowDialog();
         }
 

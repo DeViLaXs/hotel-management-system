@@ -116,5 +116,10 @@ namespace HotelReservation
         {
 
         }
+
+        private void dashboardControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
