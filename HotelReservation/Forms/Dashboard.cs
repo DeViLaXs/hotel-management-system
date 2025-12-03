@@ -42,7 +42,8 @@ namespace HotelReservation
         private void Dashboard_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'customersDataSet.Customers' table. You can move, or remove it, as needed.
-            this.customersTableAdapter.Fill(this.customersDataSet.Customers);
+            //this.customersTableAdapter.Fill(this.customersDataSet.Customers);
+            Console.Write("Hi osama");
 
         }
 
